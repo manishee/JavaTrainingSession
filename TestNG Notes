@@ -1,0 +1,23 @@
+TestNG -- Test NextGeneration
+to write test in organized and systematic way
+a unit test framework
+inspired by Junit and Nunit framework with some additional features
+a lot of annotations
+priorities/sequence of execution of test cases
+grouping of test cases
+dependency - one test case is dependent on other test
+data provider - test login page with 5 different sets of data
+generate good HTML reports
+is available in form on JARs
+open source
+it is also called TDD (Test Driven Development Framework)
+
+Steps to configure TestNG
+1. Go to the Website https://www.toolsqa.com/selenium-webdriver/install-testng/ and copy the url for testNG "http://beust.com/eclipse/” 
+2. In eclipse, go to Help-> Install New Software --> Copy the url
+3. Click Next
+4. Go to the Project->Java Build Path-> Add Library -> Select TestNG and click Next
+
+Notes
+1. TestNG doesn't need a main method. It executes program on its own.
+
