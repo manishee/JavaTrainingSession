@@ -6,8 +6,10 @@
           
      <classes>
          
+         <class name = "com.test.GoogleTitleTest" />
          <class name = "com.test.TestNGBasics" />
-         <class name = "com.test.TestNGBasics2" />
+         <class name = "com.test.invocationCountTest" />
+         <class name = "com.test.testNGFeatures" />
                   
       </classes>
       

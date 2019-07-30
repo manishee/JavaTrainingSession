@@ -1,8 +1,10 @@
 package com.test;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class testNGFeatures {
+	
 	
 	@Test
 	public void loginTest() {

@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestNGBasics {
+public class TestNGBasics2 {
 	
 	
 //	@BeforeSuite -set up properties for Chrome
@@ -41,51 +41,51 @@ public class TestNGBasics {
 	@BeforeSuite //1
 	// annotations starts with @. Each and every annotation is associated with one method 
 	public void setUp() {
-		System.out.println("@BeforeSuite -set up properties for chrome");
+		System.out.println("@BeforeSuite2 -set up properties for chrome");
 		
 	}
 	@BeforeTest//2
 	public void launchBrowser() {
-		System.out.println("@BeforeTest --launchBrowser");
+		System.out.println("@BeforeTest2 --TestNGBasics");
 	}
 	@BeforeClass//3
 	public void enterURL() {
-		System.out.println("@BeforeClass - entering the URL");
+		System.out.println("@BeforeClass2 - entering the URL");
 	}
 	
 	@BeforeMethod//4
 	public void login() {
-		System.out.println("@BeforeMethod --login to the application");
+		System.out.println("@BeforeMethod2 --login to the application");
 	}
 	
 	@Test() // test //5
 	public void googleTitleTest() {
-		System.out.println("@Test --- google title test");
+		System.out.println("@Test2 --- google title test");
 	}
 	
 	@Test()
 	public void searchTest() {
-		System.out.println("@Test --- search test");
+		System.out.println("@Test2 --- search test");
 	}
 	
 	@Test()
 	public void googleLogoTest() {
-		System.out.println("@Test --- google logo test");
+		System.out.println("@Test2 --- google logo test");
 	}
 	// post conditions or annotations
 	@AfterMethod //6
 	public void logout() {
-		System.out.println("@AfterMethod -- logout");
+		System.out.println("@AfterMethod2 -- logout");
 	}
 	
 	@AfterClass //7
 	public void closeBrowser() {
-		System.out.println("@AfterClass -- closing browser");
+		System.out.println("@AfterClass2 -- closing browser");
 	}
 	
 	@AfterTest //8 
 	public void deleteAllCookies() {
-		System.out.println("@AfterTest ---deleteAllCookies");
+		System.out.println("@AfterTest2 ---deleteAllCookies");
 	}
 	
 	/*@AfterSuite

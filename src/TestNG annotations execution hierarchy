@@ -1,0 +1,39 @@
+<Suite> @BeforeSuite, @BeforeSuite2, @BeforeSuite3
+	
+	<Test> @BeforeTest, @BeforeTest2
+		
+		<classes>
+			<class name= "class1">   @BeforeClass
+			
+				@BeforeMethod+@Test+ @AfterMethod
+				@BeforeMethod+@Test2+@AfterMethod
+				@BeforeMethod+@Test3+@AfterMethod
+				
+								     @AfterClass	
+								   
+			<class name= "class2">   @BeforeClass2
+				
+				@BeforeMethod+@Test+ @AfterMethod
+				@BeforeMethod+@Test2+@AfterMethod
+				@BeforeMethod+@Test3+@AfterMethod
+				
+									 @AfterClass2
+		</classes>
+	
+	</Test> @AfterTest, @AfterTest2
+	
+	<Test> @BeforeTest3
+		
+		<classes>
+			<class name= "class3">   @BeforeClass3
+			
+				@BeforeMethod+@Test+ @AfterMethod
+				@BeforeMethod+@Test2+@AfterMethod
+				@BeforeMethod+@Test3+@AfterMethod
+				
+								     @AfterClass3						     
+		</classes>
+	
+	</Test> @AfterTest3
+</Suite> @AfterSuite, @AfterSuite2, @AfterSuite3				
+				

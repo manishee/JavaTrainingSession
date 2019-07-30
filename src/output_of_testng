@@ -1,0 +1,42 @@
+@BeforeSuite -set up properties for chrome
+@BeforeSuite2 -set up properties for chrome
+@BeforeSuite3 -set up properties for chrome
+@BeforeTest --TestNGBasics
+@BeforeTest2 --TestNGBasics
+@BeforeClass - entering the URL
+@BeforeMethod --login to the application
+@Test --- google logo test
+@AfterMethod -- logout
+@BeforeMethod --login to the application
+@Test --- google title test
+@AfterMethod -- logout
+@BeforeMethod --login to the application
+@Test --- search test
+@AfterMethod -- logout
+@AfterClass -- closing browser
+@BeforeClass2 - entering the URL
+@BeforeMethod2 --login to the application
+@Test2 --- google logo test
+@AfterMethod2 -- logout
+@BeforeMethod2 --login to the application
+@Test2 --- google title test
+@AfterMethod2 -- logout
+@BeforeMethod2 --login to the application
+@Test2 --- search test
+@AfterMethod2 -- logout
+@AfterClass2 -- closing browser
+@AfterTest ---deleteAllCookies
+@AfterTest2 ---deleteAllCookies
+@BeforeTest3 --TestNGBasics
+@BeforeClass3- entering the URL
+@BeforeMethod3 --login to the application
+@Test33 --- google logo test
+@AfterMethod3-- logout
+@BeforeMethod3 --login to the application
+@Test3 --- google title test
+@AfterMethod3-- logout
+@BeforeMethod3 --login to the application
+@Test3 --- search test
+@AfterMethod3-- logout
+@AfterClass3 -- closing browser
+@AfterTest3 ---deleteAllCookies
