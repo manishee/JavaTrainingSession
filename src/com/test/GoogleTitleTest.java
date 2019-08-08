@@ -57,6 +57,7 @@ public class GoogleTitleTest {
 	}
 	
 	@Test(groups="search page")
+	//By default, all @Test are enabled =ture
 	public void test2() {
 		System.out.println("test2");
 	}

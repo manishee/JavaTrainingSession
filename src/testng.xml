@@ -2,24 +2,23 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name = "Google App Test Automation Suite">
-   <test name = "Google testing unittest">
-          
+   <test name = "Google testing unittest">     
      <classes>
          
          <class name = "com.test.TestNGBasics" />
          <class name = "com.test.TestNGBasics2" />
-                  
-      </classes>
-      
-   </test>
-   
-   <test name = "Google testing AcceptanceTest">
-   
-     <classes>
        
-         <class name = "com.test.TestNGBasics3" />
-         
-      </classes>
+     </classes>
       
    </test>
+   <test name = "Google testing acceptancetest">     
+     <classes>
+         
+     
+         <class name = "com.test.TestNGBasics3" />
+       
+     </classes>
+      
+   </test>	
+
 </suite>

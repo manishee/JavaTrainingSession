@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Google App Test Automation Suite]]">
+  <test thread-count="5" name="Google testing unittest(failed)(failed)">
+    <classes>
+      <class name="com.test.testNGFeatures">
+        <methods>
+          <include name="homePageTest"/>
+          <include name="regPageTest"/>
+          <include name="searchPageTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.test.testNGFeatures -->
+    </classes>
+  </test> <!-- Google testing unittest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Google App Test Automation Suite]] -->

@@ -53,7 +53,7 @@ public class TestNGBasics {
 		System.out.println("@BeforeClass - entering the URL");
 	}
 	
-	@BeforeMethod//4
+	@BeforeMethod()//4
 	public void login() {
 		System.out.println("@BeforeMethod --login to the application");
 	}
