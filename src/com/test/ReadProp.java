@@ -50,9 +50,11 @@ public class ReadProp {
 			driver.findElement(By.name(prop.getProperty("password_name"))).sendKeys(prop.getProperty("password"));
 			driver.findElement(By.xpath(prop.getProperty("login_btn_xpath"))).click();
 			
+			driver.quit();
+			
 		}
 		
-		//
+		
 		
 	}
 

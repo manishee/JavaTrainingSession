@@ -48,6 +48,7 @@ public class HandleWindowPopUp {
 		Thread.sleep(3000);
 		System.out.println(driver.getTitle());
 		
+		driver.quit();
 		
 		
 		
