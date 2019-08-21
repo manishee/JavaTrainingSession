@@ -16,7 +16,7 @@ public class GoogleTitleTest {
 	@BeforeMethod
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\mchugh\\Desktop\\JavaTraining\\chromedriver_win32\\chromedriver.exe");
+				"C:\\Users\\mchugh\\Desktop\\Manish\\JavaTraining\\chromedriver_win32\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();

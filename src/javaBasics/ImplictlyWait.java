@@ -9,7 +9,7 @@ public class ImplictlyWait {
 
 	
 		public static void main(String[] args) throws InterruptedException {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\mchugh\\Desktop\\JavaTraining\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\mchugh\\Desktop\\Manish\\JavaTraining\\chromedriver_win32\\chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
 			driver.manage().window().maximize();//maximize the window
 			driver.manage().deleteAllCookies();//delete all cookies

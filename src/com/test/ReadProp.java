@@ -25,21 +25,21 @@ public class ReadProp {
 		
 		if(browser_name.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\mchugh\\Desktop\\JavaTraining\\chromedriver_win32\\chromedriver.exe");
+					"C:\\Users\\mchugh\\Desktop\\Manish\\JavaTraining\\chromedriver_win32\\chromedriver.exe");
 			
 			driver = new ChromeDriver();
 		}
 		
 		else if(browser_name.equals("edge")) {
 			System.setProperty("webdriver.edge.driver",
-					"C:\\Users\\mchugh\\Desktop\\JavaTraining\\chromedriver_win32\\MicrosoftWebDriver.exe");
+					"C:\\Users\\mchugh\\Desktop\\Manish\\JavaTraining\\chromedriver_win32\\MicrosoftWebDriver.exe");
 			
 			driver = new EdgeDriver();
 		}
 		
 		else if(browser_name.equals("ff")) {
 			System.setProperty("webdriver.gecko.driver",
-					"C:\\Users\\mchugh\\Desktop\\JavaTraining\\chromedriver_win32\\geckoDriver.exe");
+					"C:\\Users\\mchugh\\Desktop\\Manish\\JavaTraining\\chromedriver_win32\\geckoDriver.exe");
 			
 			driver = new FirefoxDriver();
 		}
